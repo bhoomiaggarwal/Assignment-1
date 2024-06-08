@@ -1,0 +1,12 @@
+temp = input("Enter temperature in Celsius or Fahrenheit?: ")
+degree = float(input("Enter temperature: "))
+if temp=='celsius' or temp=='Celsius':
+    f = (degree*9/5) + 32 
+    print("Temperature in fahrenheit",f)
+elif temp=='Fahrenheit'or temp=="fahrenheit":
+    c = (degree-32)*5/9 
+    print("Temperature in celsius:",c)
+else:
+    print("Enter valid command!!!")
+
+

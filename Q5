@@ -1,0 +1,3 @@
+strings = input("Enter the content: ")
+f = open("D:/Python ML Workshop/textfiles/ass1.txt","w")
+f.write(strings)

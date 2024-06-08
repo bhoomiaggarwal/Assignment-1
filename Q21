@@ -1,0 +1,10 @@
+l = []
+n = int(input("Enter number of elements you want in the list: "))
+for i in range (0,n):
+    value = input("Enter the value: ")
+    l.append(value)
+element = input("Enter the element you want frequency of: ")
+if element in l:
+    print("The occurance of element is:",l.count(element))
+else:
+    print("Element not found!!!")

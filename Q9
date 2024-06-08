@@ -1,0 +1,3 @@
+string = input("Enter a string: ")
+substr = input("Enter the substring to be found: ")
+print(substr in string)

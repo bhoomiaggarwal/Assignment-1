@@ -1,0 +1,5 @@
+import csv
+f = open("C:/Users/bhoom/Downloads/ass1.csv","r")
+content = csv.reader(f)
+for lines in content:
+    print(lines)

@@ -1,0 +1,2 @@
+strings = input("Enter a string: ")
+print("The length of the given string is:",len(strings))

@@ -1,0 +1,9 @@
+n = int(input("Enter how many digits you want in the sum list: "))
+l=[]
+for i in range(0,n):
+    num = int(input("Enter number: "))
+    l.append(num)
+sum = 0
+for i in range(0,len(l)):
+    sum = sum+l[i]
+print("The sum  of all the numbers is:",sum)

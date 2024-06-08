@@ -1,0 +1,3 @@
+string = input("Enter a string: ")
+l = list(string)
+print("the list of given string is :",l)

@@ -1,0 +1,4 @@
+f1 = open("D:/Python ML Workshop/textfiles/ass1.txt","r")
+f2 = open("D:/Python ML Workshop/textfiles/ass12.txt","a")
+for line in f1:
+    f2.write(line)
